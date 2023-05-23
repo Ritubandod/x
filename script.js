@@ -1,7 +1,5 @@
 
-        // JavaScript to hide all content inside the body and show custom content
-        window.onload = function() {
-            // Hide all elements inside the body
+
             var bodyElements = document.querySelectorAll('body > *');
             for (var i = 0; i < bodyElements.length; i++) {
                 bodyElements[i].style.display = 'none';
@@ -14,4 +12,4 @@
 
             // Append the custom content to the body
             document.body.appendChild(customContent);
-        };
+       
